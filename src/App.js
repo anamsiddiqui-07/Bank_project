@@ -1,6 +1,6 @@
-import { Addbank } from './Components/Addbank';
+import { Addbank } from './Components/Pages/Addbank';
 import './common.css';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Pages/Navbar';
 import { BrowserRouter , Routes, Route} from "react-router-dom"
 import Home from "./Components/Pages/Home";
 import OnlineBanking from "./Components/Pages/OnlineBanking";
@@ -19,6 +19,8 @@ function App() {
       {/* <Route path='/onlinebanking/debit' element={<Debit/>}/> */}
     </Routes>
     </BrowserRouter>
+
+    
     
   );
 }
@@ -26,8 +28,5 @@ function App() {
 export default App;
 
 
-    // <div className="App">
-    //   <Addbank/>
-    
-    // </div>
+  
  
