@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { TextField, Grid, Card, CardContent, Button } from "@mui/material";
-import ShowBanks from "./ShowBanks";
-function Addbank({ handleSubmit }) {
+function AddBranch({ handleSubmit }) {
   // const[data,setData]=useState([])
   const [details, setDetails] = useState({
     name: "ICIC",
@@ -96,4 +95,4 @@ function Addbank({ handleSubmit }) {
   );
 }
 
-export default Addbank;
+export default AddBranch;

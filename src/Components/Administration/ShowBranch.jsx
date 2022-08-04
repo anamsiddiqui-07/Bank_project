@@ -1,10 +1,9 @@
 import React,{useState} from "react";
 // import ShowItems from "./ShowItems";
 
-function ShowBanks(){
+function ShowBranch(){
 
     const result = JSON.parse(localStorage.getItem("userdata"));
-    console.log(result);
     console.log(result);
 
     // const[data,setData]= useState([]);
@@ -14,14 +13,14 @@ function ShowBanks(){
     return(
 
         <div>
-            <div>
-      <h2 className="admin">Details</h2>
-      <div className="detailst">
-        <table className="table">
+            <div className="form">
+      <h2>Branch Details</h2>
+      <div >
+        <table >
           <tr>
             <th>Name</th>
             <th>City</th>
-            <th>Bank</th>
+            <th>Branch</th>
             
           </tr>
           {result.map((item) => {
@@ -57,4 +56,4 @@ function ShowBanks(){
     )
 }
 
-export default ShowBanks
+export default ShowBranch

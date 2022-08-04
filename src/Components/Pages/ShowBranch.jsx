@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 // import ShowItems from "./ShowItems";
 
-function ShowBanks(){
+function ShowBranch(){
 
     const result = JSON.parse(localStorage.getItem("userdata"));
     console.log(result);
@@ -57,4 +57,4 @@ function ShowBanks(){
     )
 }
 
-export default ShowBanks
+export default ShowBranch
